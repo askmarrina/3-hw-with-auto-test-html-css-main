@@ -138,6 +138,9 @@ select:hover,
 .skills {
     /* 📍 Свойства flexbox для расположения элементов с классом .label */
     min-width: 520px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 
 }
 
@@ -148,11 +151,14 @@ select:hover,
     min-width: 520px;
 }
 
+
 .skills-wrapper {
     display: flex;
     flex-direction: column;
 
 }
+
+
 
 .label {
     font-weight: 400;
